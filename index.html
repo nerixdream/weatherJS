@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherJS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="location">
+            <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                        clip-rule="evenodd" />
+                </svg> <span>Tlaxcala, Mex</span></p>
+        </div>
+        <!-- Location -->
+        <div class="main-weather">
+            <div class="main-weather__current">
+                <div class="main-weather__icon">
+                    <img src="icons/02d.png">
+                </div>
+                <div class="main-weather__info">22º</div>
+            </div>
+            <div class="main-weather__maxmin">
+                <div class="main-weather__max">
+                    <span>max</span>
+                    <span>24º</span>
+                </div>
+                <div class="main-weather__min">
+                    <span>min</span>
+                    <span>18º</span>
+                </div>
+            </div>
+        </div>
+        <!-- Main weather -->
+
+        <div class="search">
+            <form action="#" id="formulario">
+                <input type="text" placeholder="Buscar">
+            </form>
+        </div>
+    </main>
+    <!-- Main -->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
