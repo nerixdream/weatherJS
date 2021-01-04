@@ -17,24 +17,24 @@
                     <path fill-rule="evenodd"
                         d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
                         clip-rule="evenodd" />
-                </svg> <span>Tlaxcala, Mex</span></p>
+                </svg> <span id="ciudad">Tlaxcala, Mex</span></p>
         </div>
         <!-- Location -->
         <div class="main-weather">
             <div class="main-weather__current">
-                <div class="main-weather__icon">
-                    <img src="icons/02d.png">
+                <div class="main-weather__icon" id="icono">
+                    <!-- <img src="icons/02d.png"> -->
                 </div>
-                <div class="main-weather__info">22º</div>
+                <div class="main-weather__info" id="temperatura">22º</div>
             </div>
             <div class="main-weather__maxmin">
                 <div class="main-weather__max">
                     <span>max</span>
-                    <span>24º</span>
+                    <span id="max">24º</span>
                 </div>
                 <div class="main-weather__min">
                     <span>min</span>
-                    <span>18º</span>
+                    <span id="min">18º</span>
                 </div>
             </div>
         </div>
@@ -42,9 +42,11 @@
 
         <div class="search">
             <form action="#" id="formulario">
-                <input type="text" placeholder="Buscar">
+                <input type="text" placeholder="Buscar" id="buscar">
             </form>
         </div>
+
+        <!-- <div class="error">El campo está vacío o es demasiado corto</div> -->
     </main>
     <!-- Main -->
 
