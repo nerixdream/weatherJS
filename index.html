@@ -8,6 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -17,7 +23,7 @@
                     <path fill-rule="evenodd"
                         d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
                         clip-rule="evenodd" />
-                </svg> <span id="ciudad">Tlaxcala, Mex</span></p>
+                </svg> <span id="ciudad">Powered by Noctus</span></p>
         </div>
         <!-- Location -->
         <div class="main-weather">
@@ -25,16 +31,24 @@
                 <div class="main-weather__icon" id="icono">
                     <!-- <img src="icons/02d.png"> -->
                 </div>
-                <div class="main-weather__info" id="temperatura">22º</div>
+                <div class="main-weather__info" id="temperatura">0º</div>
             </div>
             <div class="main-weather__maxmin">
                 <div class="main-weather__max">
                     <span>max</span>
-                    <span id="max">24º</span>
+                    <span id="max">0º</span>
                 </div>
                 <div class="main-weather__min">
                     <span>min</span>
-                    <span id="min">18º</span>
+                    <span id="min">0º</span>
+                </div>
+                <div class="main-weather__wind">
+                    <span>wind</span>
+                    <span id="wind">0 <span>m/s</span></span>
+                </div>
+                <div class="main-weather__clouds">
+                    <span>clouds</span>
+                    <span id="clouds">0%</span>
                 </div>
             </div>
         </div>
@@ -42,7 +56,7 @@
 
         <div class="search">
             <form action="#" id="formulario">
-                <input type="text" placeholder="Buscar" id="buscar">
+                <input type="text" placeholder="Buscar ciudad..." id="buscar">
             </form>
         </div>
 
